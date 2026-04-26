@@ -1,5 +1,7 @@
 [build]
-  publish = "design/dist"
+  base = "design"
+  command = "npm run build"
+  publish = "dist"
   functions = "netlify/functions"
 
 [[redirects]]
