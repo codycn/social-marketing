@@ -1,0 +1,10 @@
+{
+  "name": "social-marketing-readonly-dashboard",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix design run dev",
+    "build": "npm --prefix design run build",
+    "lint": "npm --prefix design run lint",
+    "install:frontend": "npm --prefix design install"
+  }
+}
